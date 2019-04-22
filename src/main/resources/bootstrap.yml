@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: transactions-service
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:7071/eureka/
+server:
+  context-path: /transaction
+  port: 7072
